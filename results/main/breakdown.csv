@@ -1,0 +1,265 @@
+model,benchmark,dimension,category,round1,round2,n1,n2,score1,score2,average,method
+4B Base,LB1,dataset,2wikimqa,1,2,200,200,77.22954545454544,79.6993867243867,78.46446608946607,Mean within category
+4B Base,LB1,dataset,hotpotqa,1,2,200,200,66.49851985733562,67.58941098661685,67.04396542197624,Mean within category
+4B Base,LB1,dataset,musique,1,2,200,200,49.56673292426469,52.00972317156528,50.788228047914984,Mean within category
+4B Base,LB1,Overall,Overall,1,2,600,600,64.4315994120486,66.4328402941896,65.43221985311911,Item-weighted mean
+4B Base,LR32k,Overall,Overall,1,2,794,794,79.5969773299748,79.72292191435768,79.65994962216624,Item-weighted mean
+4B Base,LBv2,task_domain,Code Repository Understanding,1,2,50,50,50.0,44.0,47.0,Mean within category
+4B Base,LBv2,task_domain,Long In-context Learning,1,2,81,81,43.20987654320987,40.74074074074074,41.9753086419753,Mean within category
+4B Base,LBv2,task_domain,Long Structured Data Understanding,1,2,33,33,33.333333333333336,57.57575757575758,45.45454545454545,Mean within category
+4B Base,LBv2,task_domain,Long-dialogue History Understanding,1,2,39,39,58.97435897435897,61.53846153846154,60.256410256410255,Mean within category
+4B Base,LBv2,task_domain,Multi-Document QA,1,2,125,125,32.0,32.0,32.0,Mean within category
+4B Base,LBv2,task_domain,Single-Document QA,1,2,175,175,37.714285714285715,40.0,38.85714285714286,Mean within category
+4B Base,LBv2,task_subtype,Academic,1,2,94,94,38.297872340425535,39.361702127659576,38.829787234042556,Mean within category
+4B Base,LBv2,task_subtype,Agent history QA,1,2,20,20,75.0,70.0,72.5,Mean within category
+4B Base,LBv2,task_subtype,Code repo QA,1,2,50,50,50.0,44.0,47.0,Mean within category
+4B Base,LBv2,task_subtype,Detective,1,2,22,22,9.090909090909092,22.727272727272727,15.90909090909091,Mean within category
+4B Base,LBv2,task_subtype,Dialogue history QA,1,2,19,19,42.10526315789474,52.63157894736842,47.368421052631575,Mean within category
+4B Base,LBv2,task_subtype,Event ordering,1,2,20,20,50.0,60.0,55.0,Mean within category
+4B Base,LBv2,task_subtype,Financial,1,2,37,37,43.24324324324324,32.432432432432435,37.83783783783784,Mean within category
+4B Base,LBv2,task_subtype,Governmental,1,2,41,41,29.26829268292683,36.58536585365854,32.926829268292686,Mean within category
+4B Base,LBv2,task_subtype,Knowledge graph reasoning,1,2,15,15,33.333333333333336,60.0,46.66666666666667,Mean within category
+4B Base,LBv2,task_subtype,Legal,1,2,33,33,36.36363636363637,39.39393939393939,37.878787878787875,Mean within category
+4B Base,LBv2,task_subtype,Literary,1,2,30,30,36.666666666666664,36.666666666666664,36.666666666666664,Mean within category
+4B Base,LBv2,task_subtype,Many-shot learning,1,2,21,21,42.857142857142854,38.095238095238095,40.476190476190474,Mean within category
+4B Base,LBv2,task_subtype,Multi-news,1,2,23,23,30.434782608695652,21.73913043478261,26.086956521739133,Mean within category
+4B Base,LBv2,task_subtype,New language translation,1,2,20,20,30.0,40.0,35.0,Mean within category
+4B Base,LBv2,task_subtype,Table QA,1,2,18,18,33.333333333333336,55.55555555555556,44.44444444444444,Mean within category
+4B Base,LBv2,task_subtype,User guide QA,1,2,40,40,50.0,42.5,46.25,Mean within category
+4B Base,LBv2,difficulty,easy,1,2,192,192,46.354166666666664,50.520833333333336,48.4375,Mean within category
+4B Base,LBv2,difficulty,hard,1,2,311,311,35.69131832797428,35.69131832797428,35.69131832797428,Mean within category
+4B Base,LBv2,length_band,long,1,2,108,108,35.18518518518518,34.25925925925926,34.72222222222222,Mean within category
+4B Base,LBv2,length_band,medium,1,2,215,215,35.348837209302324,39.53488372093023,37.44186046511628,Mean within category
+4B Base,LBv2,length_band,short,1,2,180,180,47.77777777777778,47.77777777777778,47.77777777777778,Mean within category
+4B Base,LBv2,Overall,Overall,1,2,503,503,39.761431411530815,41.35188866799205,40.55666003976143,Item-weighted mean
+8B Base,LB1,dataset,2wikimqa,1,2,200,200,75.89621212121212,77.76984126984125,76.83302669552668,Mean within category
+8B Base,LB1,dataset,hotpotqa,1,2,200,200,66.68261892258874,66.47751697032548,66.58006794645712,Mean within category
+8B Base,LB1,dataset,musique,1,2,200,200,48.08220000993087,46.886200669139114,47.48420033953499,Mean within category
+8B Base,LB1,Overall,Overall,1,2,600,600,63.55367701791056,63.71118630310195,63.632431660506256,Item-weighted mean
+8B Base,LR32k,Overall,Overall,1,2,794,794,76.70025188916877,77.07808564231738,76.88916876574308,Item-weighted mean
+8B Base,LBv2,task_domain,Code Repository Understanding,1,2,50,50,34.0,34.0,34.0,Mean within category
+8B Base,LBv2,task_domain,Long In-context Learning,1,2,81,81,27.160493827160494,29.62962962962963,28.395061728395063,Mean within category
+8B Base,LBv2,task_domain,Long Structured Data Understanding,1,2,33,33,21.21212121212121,36.36363636363637,28.78787878787879,Mean within category
+8B Base,LBv2,task_domain,Long-dialogue History Understanding,1,2,39,39,48.717948717948715,58.97435897435897,53.84615384615384,Mean within category
+8B Base,LBv2,task_domain,Multi-Document QA,1,2,125,125,24.0,23.2,23.6,Mean within category
+8B Base,LBv2,task_domain,Single-Document QA,1,2,175,175,34.857142857142854,35.42857142857143,35.14285714285714,Mean within category
+8B Base,LBv2,task_subtype,Academic,1,2,94,94,28.72340425531915,26.595744680851062,27.659574468085104,Mean within category
+8B Base,LBv2,task_subtype,Agent history QA,1,2,20,20,75.0,80.0,77.5,Mean within category
+8B Base,LBv2,task_subtype,Code repo QA,1,2,50,50,34.0,34.0,34.0,Mean within category
+8B Base,LBv2,task_subtype,Detective,1,2,22,22,9.090909090909092,9.090909090909092,9.090909090909092,Mean within category
+8B Base,LBv2,task_subtype,Dialogue history QA,1,2,19,19,21.05263157894737,36.8421052631579,28.947368421052634,Mean within category
+8B Base,LBv2,task_subtype,Event ordering,1,2,20,20,25.0,40.0,32.5,Mean within category
+8B Base,LBv2,task_subtype,Financial,1,2,37,37,43.24324324324324,37.83783783783784,40.54054054054054,Mean within category
+8B Base,LBv2,task_subtype,Governmental,1,2,41,41,29.26829268292683,29.26829268292683,29.26829268292683,Mean within category
+8B Base,LBv2,task_subtype,Knowledge graph reasoning,1,2,15,15,20.0,40.0,30.0,Mean within category
+8B Base,LBv2,task_subtype,Legal,1,2,33,33,36.36363636363637,39.39393939393939,37.878787878787875,Mean within category
+8B Base,LBv2,task_subtype,Literary,1,2,30,30,40.0,40.0,40.0,Mean within category
+8B Base,LBv2,task_subtype,Many-shot learning,1,2,21,21,28.571428571428573,19.047619047619047,23.80952380952381,Mean within category
+8B Base,LBv2,task_subtype,Multi-news,1,2,23,23,21.73913043478261,21.73913043478261,21.73913043478261,Mean within category
+8B Base,LBv2,task_subtype,New language translation,1,2,20,20,30.0,40.0,35.0,Mean within category
+8B Base,LBv2,task_subtype,Table QA,1,2,18,18,22.22222222222222,33.333333333333336,27.77777777777778,Mean within category
+8B Base,LBv2,task_subtype,User guide QA,1,2,40,40,25.0,30.0,27.5,Mean within category
+8B Base,LBv2,difficulty,easy,1,2,192,192,39.0625,42.708333333333336,40.88541666666667,Mean within category
+8B Base,LBv2,difficulty,hard,1,2,311,311,26.04501607717042,27.331189710610932,26.688102893890676,Mean within category
+8B Base,LBv2,length_band,long,1,2,108,108,21.296296296296298,26.85185185185185,24.074074074074076,Mean within category
+8B Base,LBv2,length_band,medium,1,2,215,215,24.186046511627907,26.511627906976745,25.348837209302324,Mean within category
+8B Base,LBv2,length_band,short,1,2,180,180,45.0,45.0,45.0,Mean within category
+8B Base,LBv2,Overall,Overall,1,2,503,503,31.013916500994036,33.20079522862823,32.10735586481113,Item-weighted mean
+4B Enhanced HotpotQA,LB1,dataset,2wikimqa,1,2,200,200,75.9255862193362,76.89918525918523,76.41238573926071,Mean within category
+4B Enhanced HotpotQA,LB1,dataset,hotpotqa,1,2,200,200,67.06818327870958,66.1150249718499,66.59160412527974,Mean within category
+4B Enhanced HotpotQA,LB1,dataset,musique,1,2,200,200,53.767227536762185,55.87551987273281,54.8213737047475,Mean within category
+4B Enhanced HotpotQA,LB1,Overall,Overall,1,2,600,600,65.58699901160269,66.296576701256,65.94178785642934,Item-weighted mean
+4B Enhanced HotpotQA,LR32k,Overall,Overall,1,2,794,794,80.35264483627203,81.48614609571788,80.91939546599497,Item-weighted mean
+4B Enhanced HotpotQA,LBv2,task_domain,Code Repository Understanding,1,2,50,50,36.0,48.0,42.0,Mean within category
+4B Enhanced HotpotQA,LBv2,task_domain,Long In-context Learning,1,2,81,81,45.67901234567901,40.74074074074074,43.20987654320987,Mean within category
+4B Enhanced HotpotQA,LBv2,task_domain,Long Structured Data Understanding,1,2,33,33,45.45454545454545,48.484848484848484,46.96969696969697,Mean within category
+4B Enhanced HotpotQA,LBv2,task_domain,Long-dialogue History Understanding,1,2,39,39,64.1025641025641,56.41025641025641,60.256410256410255,Mean within category
+4B Enhanced HotpotQA,LBv2,task_domain,Multi-Document QA,1,2,125,125,38.4,41.6,40.0,Mean within category
+4B Enhanced HotpotQA,LBv2,task_domain,Single-Document QA,1,2,175,175,41.142857142857146,40.57142857142857,40.85714285714286,Mean within category
+4B Enhanced HotpotQA,LBv2,task_subtype,Academic,1,2,94,94,44.680851063829785,48.93617021276596,46.808510638297875,Mean within category
+4B Enhanced HotpotQA,LBv2,task_subtype,Agent history QA,1,2,20,20,75.0,70.0,72.5,Mean within category
+4B Enhanced HotpotQA,LBv2,task_subtype,Code repo QA,1,2,50,50,36.0,48.0,42.0,Mean within category
+4B Enhanced HotpotQA,LBv2,task_subtype,Detective,1,2,22,22,22.727272727272727,18.181818181818183,20.454545454545453,Mean within category
+4B Enhanced HotpotQA,LBv2,task_subtype,Dialogue history QA,1,2,19,19,52.63157894736842,42.10526315789474,47.368421052631575,Mean within category
+4B Enhanced HotpotQA,LBv2,task_subtype,Event ordering,1,2,20,20,40.0,45.0,42.5,Mean within category
+4B Enhanced HotpotQA,LBv2,task_subtype,Financial,1,2,37,37,48.648648648648646,40.54054054054054,44.5945945945946,Mean within category
+4B Enhanced HotpotQA,LBv2,task_subtype,Governmental,1,2,41,41,34.146341463414636,39.02439024390244,36.58536585365854,Mean within category
+4B Enhanced HotpotQA,LBv2,task_subtype,Knowledge graph reasoning,1,2,15,15,60.0,40.0,50.0,Mean within category
+4B Enhanced HotpotQA,LBv2,task_subtype,Legal,1,2,33,33,30.303030303030305,42.42424242424242,36.36363636363636,Mean within category
+4B Enhanced HotpotQA,LBv2,task_subtype,Literary,1,2,30,30,46.666666666666664,33.333333333333336,40.0,Mean within category
+4B Enhanced HotpotQA,LBv2,task_subtype,Many-shot learning,1,2,21,21,33.333333333333336,28.571428571428573,30.952380952380956,Mean within category
+4B Enhanced HotpotQA,LBv2,task_subtype,Multi-news,1,2,23,23,39.130434782608695,39.130434782608695,39.130434782608695,Mean within category
+4B Enhanced HotpotQA,LBv2,task_subtype,New language translation,1,2,20,20,60.0,40.0,50.0,Mean within category
+4B Enhanced HotpotQA,LBv2,task_subtype,Table QA,1,2,18,18,33.333333333333336,55.55555555555556,44.44444444444444,Mean within category
+4B Enhanced HotpotQA,LBv2,task_subtype,User guide QA,1,2,40,40,45.0,47.5,46.25,Mean within category
+4B Enhanced HotpotQA,LBv2,difficulty,easy,1,2,192,192,51.5625,47.916666666666664,49.73958333333333,Mean within category
+4B Enhanced HotpotQA,LBv2,difficulty,hard,1,2,311,311,37.29903536977492,40.51446945337621,38.90675241157557,Mean within category
+4B Enhanced HotpotQA,LBv2,length_band,long,1,2,108,108,38.888888888888886,37.03703703703704,37.96296296296296,Mean within category
+4B Enhanced HotpotQA,LBv2,length_band,medium,1,2,215,215,38.13953488372093,38.604651162790695,38.372093023255815,Mean within category
+4B Enhanced HotpotQA,LBv2,length_band,short,1,2,180,180,50.55555555555556,52.77777777777778,51.66666666666667,Mean within category
+4B Enhanced HotpotQA,LBv2,Overall,Overall,1,2,503,503,42.74353876739563,43.33996023856859,43.04174950298211,Item-weighted mean
+4B LongZero,LB1,dataset,2wikimqa,1,2,200,200,79.65335497835495,79.58748196248195,79.62041847041846,Mean within category
+4B LongZero,LB1,dataset,hotpotqa,1,2,200,200,67.03113636363635,67.31316137566137,67.17214886964885,Mean within category
+4B LongZero,LB1,dataset,musique,1,2,200,200,54.266199603629936,55.46304568238779,54.864622643008865,Mean within category
+4B LongZero,LB1,Overall,Overall,1,2,600,600,66.9835636485404,67.45456300684369,67.21906332769204,Item-weighted mean
+4B LongZero,LR32k,Overall,Overall,1,2,794,794,82.24181360201511,80.35264483627203,81.29722921914357,Item-weighted mean
+4B LongZero,LBv2,task_domain,Code Repository Understanding,1,2,50,50,42.0,46.0,44.0,Mean within category
+4B LongZero,LBv2,task_domain,Long In-context Learning,1,2,81,81,37.03703703703704,44.44444444444444,40.74074074074074,Mean within category
+4B LongZero,LBv2,task_domain,Long Structured Data Understanding,1,2,33,33,48.484848484848484,54.54545454545455,51.515151515151516,Mean within category
+4B LongZero,LBv2,task_domain,Long-dialogue History Understanding,1,2,39,39,61.53846153846154,61.53846153846154,61.53846153846154,Mean within category
+4B LongZero,LBv2,task_domain,Multi-Document QA,1,2,125,125,40.8,38.4,39.599999999999994,Mean within category
+4B LongZero,LBv2,task_domain,Single-Document QA,1,2,175,175,41.714285714285715,41.142857142857146,41.42857142857143,Mean within category
+4B LongZero,LBv2,task_subtype,Academic,1,2,94,94,47.87234042553192,45.744680851063826,46.808510638297875,Mean within category
+4B LongZero,LBv2,task_subtype,Agent history QA,1,2,20,20,75.0,80.0,77.5,Mean within category
+4B LongZero,LBv2,task_subtype,Code repo QA,1,2,50,50,42.0,46.0,44.0,Mean within category
+4B LongZero,LBv2,task_subtype,Detective,1,2,22,22,22.727272727272727,18.181818181818183,20.454545454545453,Mean within category
+4B LongZero,LBv2,task_subtype,Dialogue history QA,1,2,19,19,47.36842105263158,42.10526315789474,44.736842105263165,Mean within category
+4B LongZero,LBv2,task_subtype,Event ordering,1,2,20,20,60.0,40.0,50.0,Mean within category
+4B LongZero,LBv2,task_subtype,Financial,1,2,37,37,40.54054054054054,40.54054054054054,40.54054054054054,Mean within category
+4B LongZero,LBv2,task_subtype,Governmental,1,2,41,41,34.146341463414636,36.58536585365854,35.36585365853659,Mean within category
+4B LongZero,LBv2,task_subtype,Knowledge graph reasoning,1,2,15,15,46.666666666666664,53.333333333333336,50.0,Mean within category
+4B LongZero,LBv2,task_subtype,Legal,1,2,33,33,42.42424242424242,42.42424242424242,42.42424242424242,Mean within category
+4B LongZero,LBv2,task_subtype,Literary,1,2,30,30,43.333333333333336,46.666666666666664,45.0,Mean within category
+4B LongZero,LBv2,task_subtype,Many-shot learning,1,2,21,21,33.333333333333336,28.571428571428573,30.952380952380956,Mean within category
+4B LongZero,LBv2,task_subtype,Multi-news,1,2,23,23,26.08695652173913,30.434782608695652,28.26086956521739,Mean within category
+4B LongZero,LBv2,task_subtype,New language translation,1,2,20,20,35.0,55.0,45.0,Mean within category
+4B LongZero,LBv2,task_subtype,Table QA,1,2,18,18,50.0,55.55555555555556,52.77777777777778,Mean within category
+4B LongZero,LBv2,task_subtype,User guide QA,1,2,40,40,40.0,47.5,43.75,Mean within category
+4B LongZero,LBv2,difficulty,easy,1,2,192,192,45.833333333333336,47.916666666666664,46.875,Mean within category
+4B LongZero,LBv2,difficulty,hard,1,2,311,311,40.836012861736336,41.47909967845659,41.157556270096464,Mean within category
+4B LongZero,LBv2,length_band,long,1,2,108,108,35.18518518518518,36.111111111111114,35.64814814814815,Mean within category
+4B LongZero,LBv2,length_band,medium,1,2,215,215,38.13953488372093,38.604651162790695,38.372093023255815,Mean within category
+4B LongZero,LBv2,length_band,short,1,2,180,180,52.77777777777778,55.0,53.888888888888886,Mean within category
+4B LongZero,LBv2,Overall,Overall,1,2,503,503,42.74353876739563,43.93638170974155,43.339960238568594,Item-weighted mean
+4B Teacher QA + Retrieval,LB1,dataset,2wikimqa,1,2,200,200,77.39145021645021,78.55335497835496,77.97240259740258,Mean within category
+4B Teacher QA + Retrieval,LB1,dataset,hotpotqa,1,2,200,200,67.33714431703561,68.11588827838825,67.72651629771192,Mean within category
+4B Teacher QA + Retrieval,LB1,dataset,musique,1,2,200,200,52.80047989849847,52.55099980343014,52.675739850964305,Mean within category
+4B Teacher QA + Retrieval,LB1,Overall,Overall,1,2,600,600,65.84302481066143,66.40674768672444,66.12488624869295,Item-weighted mean
+4B Teacher QA + Retrieval,LR32k,Overall,Overall,1,2,794,794,80.9823677581864,79.97481108312343,80.47858942065491,Item-weighted mean
+4B Teacher QA + Retrieval,LBv2,task_domain,Code Repository Understanding,1,2,50,50,52.0,38.0,45.0,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_domain,Long In-context Learning,1,2,81,81,37.03703703703704,40.74074074074074,38.888888888888886,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_domain,Long Structured Data Understanding,1,2,33,33,39.39393939393939,45.45454545454545,42.42424242424242,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_domain,Long-dialogue History Understanding,1,2,39,39,66.66666666666667,58.97435897435897,62.82051282051282,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_domain,Multi-Document QA,1,2,125,125,44.0,37.6,40.8,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_domain,Single-Document QA,1,2,175,175,38.857142857142854,37.714285714285715,38.285714285714285,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_subtype,Academic,1,2,94,94,40.42553191489362,38.297872340425535,39.361702127659576,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_subtype,Agent history QA,1,2,20,20,85.0,85.0,85.0,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_subtype,Code repo QA,1,2,50,50,52.0,38.0,45.0,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_subtype,Detective,1,2,22,22,27.272727272727273,9.090909090909092,18.181818181818183,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_subtype,Dialogue history QA,1,2,19,19,47.36842105263158,31.57894736842105,39.473684210526315,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_subtype,Event ordering,1,2,20,20,55.0,45.0,50.0,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_subtype,Financial,1,2,37,37,40.54054054054054,48.648648648648646,44.5945945945946,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_subtype,Governmental,1,2,41,41,36.58536585365854,29.26829268292683,32.926829268292686,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_subtype,Knowledge graph reasoning,1,2,15,15,53.333333333333336,46.666666666666664,50.0,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_subtype,Legal,1,2,33,33,42.42424242424242,48.484848484848484,45.45454545454545,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_subtype,Literary,1,2,30,30,40.0,40.0,40.0,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_subtype,Many-shot learning,1,2,21,21,14.285714285714286,28.571428571428573,21.42857142857143,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_subtype,Multi-news,1,2,23,23,52.17391304347826,34.78260869565217,43.47826086956522,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_subtype,New language translation,1,2,20,20,45.0,50.0,47.5,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_subtype,Table QA,1,2,18,18,27.77777777777778,44.44444444444444,36.111111111111114,Mean within category
+4B Teacher QA + Retrieval,LBv2,task_subtype,User guide QA,1,2,40,40,45.0,42.5,43.75,Mean within category
+4B Teacher QA + Retrieval,LBv2,difficulty,easy,1,2,192,192,48.958333333333336,46.354166666666664,47.65625,Mean within category
+4B Teacher QA + Retrieval,LBv2,difficulty,hard,1,2,311,311,39.87138263665595,36.655948553054664,38.26366559485531,Mean within category
+4B Teacher QA + Retrieval,LBv2,length_band,long,1,2,108,108,42.592592592592595,34.25925925925926,38.425925925925924,Mean within category
+4B Teacher QA + Retrieval,LBv2,length_band,medium,1,2,215,215,36.27906976744186,33.95348837209303,35.116279069767444,Mean within category
+4B Teacher QA + Retrieval,LBv2,length_band,short,1,2,180,180,52.22222222222222,51.666666666666664,51.94444444444444,Mean within category
+4B Teacher QA + Retrieval,LBv2,Overall,Overall,1,2,503,503,43.33996023856859,40.357852882703774,41.84890656063618,Item-weighted mean
+8B Enhanced HotpotQA,LB1,dataset,2wikimqa,1,2,200,200,75.67579365079364,75.17491109681511,75.42535237380437,Mean within category
+8B Enhanced HotpotQA,LB1,dataset,hotpotqa,1,2,200,200,68.9888200743032,66.837163892187,67.91299198324509,Mean within category
+8B Enhanced HotpotQA,LB1,dataset,musique,1,2,200,200,50.7551555104606,52.45369982913472,51.60442766979766,Mean within category
+8B Enhanced HotpotQA,LB1,Overall,Overall,1,2,600,600,65.13992307851912,64.82192493937895,64.98092400894903,Item-weighted mean
+8B Enhanced HotpotQA,LR32k,Overall,Overall,1,2,794,794,79.5969773299748,76.32241813602015,77.95969773299748,Item-weighted mean
+8B Enhanced HotpotQA,LBv2,task_domain,Code Repository Understanding,1,2,50,50,36.0,38.0,37.0,Mean within category
+8B Enhanced HotpotQA,LBv2,task_domain,Long In-context Learning,1,2,81,81,28.395061728395063,16.049382716049383,22.22222222222222,Mean within category
+8B Enhanced HotpotQA,LBv2,task_domain,Long Structured Data Understanding,1,2,33,33,24.242424242424242,15.151515151515152,19.696969696969695,Mean within category
+8B Enhanced HotpotQA,LBv2,task_domain,Long-dialogue History Understanding,1,2,39,39,56.41025641025641,46.15384615384615,51.282051282051285,Mean within category
+8B Enhanced HotpotQA,LBv2,task_domain,Multi-Document QA,1,2,125,125,29.6,25.6,27.6,Mean within category
+8B Enhanced HotpotQA,LBv2,task_domain,Single-Document QA,1,2,175,175,33.142857142857146,35.42857142857143,34.28571428571429,Mean within category
+8B Enhanced HotpotQA,LBv2,task_subtype,Academic,1,2,94,94,31.914893617021278,29.78723404255319,30.851063829787236,Mean within category
+8B Enhanced HotpotQA,LBv2,task_subtype,Agent history QA,1,2,20,20,75.0,65.0,70.0,Mean within category
+8B Enhanced HotpotQA,LBv2,task_subtype,Code repo QA,1,2,50,50,36.0,38.0,37.0,Mean within category
+8B Enhanced HotpotQA,LBv2,task_subtype,Detective,1,2,22,22,9.090909090909092,18.181818181818183,13.636363636363637,Mean within category
+8B Enhanced HotpotQA,LBv2,task_subtype,Dialogue history QA,1,2,19,19,36.8421052631579,26.31578947368421,31.578947368421055,Mean within category
+8B Enhanced HotpotQA,LBv2,task_subtype,Event ordering,1,2,20,20,25.0,35.0,30.0,Mean within category
+8B Enhanced HotpotQA,LBv2,task_subtype,Financial,1,2,37,37,37.83783783783784,37.83783783783784,37.83783783783784,Mean within category
+8B Enhanced HotpotQA,LBv2,task_subtype,Governmental,1,2,41,41,29.26829268292683,29.26829268292683,29.26829268292683,Mean within category
+8B Enhanced HotpotQA,LBv2,task_subtype,Knowledge graph reasoning,1,2,15,15,26.666666666666668,20.0,23.333333333333336,Mean within category
+8B Enhanced HotpotQA,LBv2,task_subtype,Legal,1,2,33,33,39.39393939393939,30.303030303030305,34.848484848484844,Mean within category
+8B Enhanced HotpotQA,LBv2,task_subtype,Literary,1,2,30,30,40.0,43.333333333333336,41.66666666666667,Mean within category
+8B Enhanced HotpotQA,LBv2,task_subtype,Many-shot learning,1,2,21,21,33.333333333333336,4.761904761904762,19.047619047619047,Mean within category
+8B Enhanced HotpotQA,LBv2,task_subtype,Multi-news,1,2,23,23,30.434782608695652,26.08695652173913,28.26086956521739,Mean within category
+8B Enhanced HotpotQA,LBv2,task_subtype,New language translation,1,2,20,20,40.0,20.0,30.0,Mean within category
+8B Enhanced HotpotQA,LBv2,task_subtype,Table QA,1,2,18,18,22.22222222222222,11.11111111111111,16.666666666666664,Mean within category
+8B Enhanced HotpotQA,LBv2,task_subtype,User guide QA,1,2,40,40,20.0,20.0,20.0,Mean within category
+8B Enhanced HotpotQA,LBv2,difficulty,easy,1,2,192,192,37.5,36.979166666666664,37.23958333333333,Mean within category
+8B Enhanced HotpotQA,LBv2,difficulty,hard,1,2,311,311,30.225080385852092,25.080385852090032,27.652733118971064,Mean within category
+8B Enhanced HotpotQA,LBv2,length_band,long,1,2,108,108,25.0,25.925925925925927,25.462962962962962,Mean within category
+8B Enhanced HotpotQA,LBv2,length_band,medium,1,2,215,215,26.511627906976745,20.46511627906977,23.48837209302326,Mean within category
+8B Enhanced HotpotQA,LBv2,length_band,short,1,2,180,180,45.55555555555556,42.77777777777778,44.16666666666667,Mean within category
+8B Enhanced HotpotQA,LBv2,Overall,Overall,1,2,503,503,33.00198807157058,29.62226640159046,31.31212723658052,Item-weighted mean
+8B LongZero,LB1,dataset,2wikimqa,1,2,200,200,79.00473137973137,77.40247922575507,78.20360530274323,Mean within category
+8B LongZero,LB1,dataset,hotpotqa,1,2,200,200,66.3646640665439,67.42628778385355,66.89547592519872,Mean within category
+8B LongZero,LB1,dataset,musique,1,2,200,200,51.321744439735824,51.43043954935925,51.37609199454754,Mean within category
+8B LongZero,LB1,Overall,Overall,1,2,600,600,65.56371329533702,65.41973551965597,65.49172440749649,Item-weighted mean
+8B LongZero,LR32k,Overall,Overall,1,2,794,794,77.95969773299748,78.84130982367758,78.40050377833754,Item-weighted mean
+8B LongZero,LBv2,task_domain,Code Repository Understanding,1,2,50,50,36.0,38.0,37.0,Mean within category
+8B LongZero,LBv2,task_domain,Long In-context Learning,1,2,81,81,20.987654320987655,29.62962962962963,25.308641975308642,Mean within category
+8B LongZero,LBv2,task_domain,Long Structured Data Understanding,1,2,33,33,24.242424242424242,27.272727272727273,25.757575757575758,Mean within category
+8B LongZero,LBv2,task_domain,Long-dialogue History Understanding,1,2,39,39,51.282051282051285,43.58974358974359,47.43589743589744,Mean within category
+8B LongZero,LBv2,task_domain,Multi-Document QA,1,2,125,125,22.4,25.6,24.0,Mean within category
+8B LongZero,LBv2,task_domain,Single-Document QA,1,2,175,175,39.42857142857143,34.857142857142854,37.14285714285714,Mean within category
+8B LongZero,LBv2,task_subtype,Academic,1,2,94,94,31.914893617021278,31.914893617021278,31.914893617021278,Mean within category
+8B LongZero,LBv2,task_subtype,Agent history QA,1,2,20,20,70.0,60.0,65.0,Mean within category
+8B LongZero,LBv2,task_subtype,Code repo QA,1,2,50,50,36.0,38.0,37.0,Mean within category
+8B LongZero,LBv2,task_subtype,Detective,1,2,22,22,9.090909090909092,9.090909090909092,9.090909090909092,Mean within category
+8B LongZero,LBv2,task_subtype,Dialogue history QA,1,2,19,19,31.57894736842105,26.31578947368421,28.94736842105263,Mean within category
+8B LongZero,LBv2,task_subtype,Event ordering,1,2,20,20,45.0,40.0,42.5,Mean within category
+8B LongZero,LBv2,task_subtype,Financial,1,2,37,37,43.24324324324324,32.432432432432435,37.83783783783784,Mean within category
+8B LongZero,LBv2,task_subtype,Governmental,1,2,41,41,26.829268292682926,26.829268292682926,26.829268292682926,Mean within category
+8B LongZero,LBv2,task_subtype,Knowledge graph reasoning,1,2,15,15,33.333333333333336,40.0,36.66666666666667,Mean within category
+8B LongZero,LBv2,task_subtype,Legal,1,2,33,33,30.303030303030305,36.36363636363637,33.333333333333336,Mean within category
+8B LongZero,LBv2,task_subtype,Literary,1,2,30,30,43.333333333333336,36.666666666666664,40.0,Mean within category
+8B LongZero,LBv2,task_subtype,Many-shot learning,1,2,21,21,19.047619047619047,23.80952380952381,21.42857142857143,Mean within category
+8B LongZero,LBv2,task_subtype,Multi-news,1,2,23,23,26.08695652173913,30.434782608695652,28.26086956521739,Mean within category
+8B LongZero,LBv2,task_subtype,New language translation,1,2,20,20,25.0,35.0,30.0,Mean within category
+8B LongZero,LBv2,task_subtype,Table QA,1,2,18,18,16.666666666666668,16.666666666666668,16.666666666666668,Mean within category
+8B LongZero,LBv2,task_subtype,User guide QA,1,2,40,40,20.0,30.0,25.0,Mean within category
+8B LongZero,LBv2,difficulty,easy,1,2,192,192,41.666666666666664,40.104166666666664,40.885416666666664,Mean within category
+8B LongZero,LBv2,difficulty,hard,1,2,311,311,25.723472668810288,27.331189710610932,26.52733118971061,Mean within category
+8B LongZero,LBv2,length_band,long,1,2,108,108,25.0,26.85185185185185,25.925925925925924,Mean within category
+8B LongZero,LBv2,length_band,medium,1,2,215,215,25.11627906976744,25.11627906976744,25.11627906976744,Mean within category
+8B LongZero,LBv2,length_band,short,1,2,180,180,43.888888888888886,43.888888888888886,43.888888888888886,Mean within category
+8B LongZero,LBv2,Overall,Overall,1,2,503,503,31.809145129224653,32.20675944333996,32.007952286282304,Item-weighted mean
+8B Teacher QA + Retrieval,LB1,dataset,2wikimqa,1,2,200,200,76.39040332705585,75.8556387747564,76.12302105090612,Mean within category
+8B Teacher QA + Retrieval,LB1,dataset,hotpotqa,1,2,200,200,67.72215871417215,66.26777122856974,66.99496497137095,Mean within category
+8B Teacher QA + Retrieval,LB1,dataset,musique,1,2,200,200,50.46676515135365,47.69330325442647,49.08003420289006,Mean within category
+8B Teacher QA + Retrieval,LB1,Overall,Overall,1,2,600,600,64.85977573086055,63.272237752584225,64.06600674172239,Item-weighted mean
+8B Teacher QA + Retrieval,LR32k,Overall,Overall,1,2,794,794,77.8337531486146,78.08564231738035,77.95969773299748,Item-weighted mean
+8B Teacher QA + Retrieval,LBv2,task_domain,Code Repository Understanding,1,2,50,50,36.0,34.0,35.0,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_domain,Long In-context Learning,1,2,81,81,28.395061728395063,27.160493827160494,27.77777777777778,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_domain,Long Structured Data Understanding,1,2,33,33,21.21212121212121,36.36363636363637,28.78787878787879,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_domain,Long-dialogue History Understanding,1,2,39,39,51.282051282051285,41.02564102564103,46.15384615384616,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_domain,Multi-Document QA,1,2,125,125,31.2,28.0,29.6,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_domain,Single-Document QA,1,2,175,175,36.57142857142857,34.857142857142854,35.71428571428571,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_subtype,Academic,1,2,94,94,34.04255319148936,35.1063829787234,34.57446808510638,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_subtype,Agent history QA,1,2,20,20,70.0,60.0,65.0,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_subtype,Code repo QA,1,2,50,50,36.0,34.0,35.0,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_subtype,Detective,1,2,22,22,9.090909090909092,4.545454545454546,6.818181818181818,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_subtype,Dialogue history QA,1,2,19,19,31.57894736842105,21.05263157894737,26.315789473684212,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_subtype,Event ordering,1,2,20,20,30.0,50.0,40.0,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_subtype,Financial,1,2,37,37,40.54054054054054,40.54054054054054,40.54054054054054,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_subtype,Governmental,1,2,41,41,29.26829268292683,26.829268292682926,28.048780487804876,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_subtype,Knowledge graph reasoning,1,2,15,15,26.666666666666668,40.0,33.333333333333336,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_subtype,Legal,1,2,33,33,45.45454545454545,30.303030303030305,37.878787878787875,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_subtype,Literary,1,2,30,30,43.333333333333336,33.333333333333336,38.333333333333336,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_subtype,Many-shot learning,1,2,21,21,28.571428571428573,33.333333333333336,30.952380952380956,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_subtype,Multi-news,1,2,23,23,34.78260869565217,26.08695652173913,30.43478260869565,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_subtype,New language translation,1,2,20,20,40.0,25.0,32.5,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_subtype,Table QA,1,2,18,18,16.666666666666668,33.333333333333336,25.0,Mean within category
+8B Teacher QA + Retrieval,LBv2,task_subtype,User guide QA,1,2,40,40,22.5,25.0,23.75,Mean within category
+8B Teacher QA + Retrieval,LBv2,difficulty,easy,1,2,192,192,41.145833333333336,35.9375,38.54166666666667,Mean within category
+8B Teacher QA + Retrieval,LBv2,difficulty,hard,1,2,311,311,29.581993569131832,30.225080385852092,29.90353697749196,Mean within category
+8B Teacher QA + Retrieval,LBv2,length_band,long,1,2,108,108,27.77777777777778,20.37037037037037,24.074074074074076,Mean within category
+8B Teacher QA + Retrieval,LBv2,length_band,medium,1,2,215,215,26.046511627906977,28.372093023255815,27.209302325581397,Mean within category
+8B Teacher QA + Retrieval,LBv2,length_band,short,1,2,180,180,47.22222222222222,44.44444444444444,45.83333333333333,Mean within category
+8B Teacher QA + Retrieval,LBv2,Overall,Overall,1,2,503,503,33.99602385685885,32.40556660039761,33.20079522862823,Item-weighted mean

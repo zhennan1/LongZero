@@ -1,0 +1,8 @@
+openai
+pandas
+pyarrow
+transformers
+datasets
+tiktoken
+tqdm
+numpy

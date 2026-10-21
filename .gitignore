@@ -1,0 +1,7 @@
+# data are downloaded from Hugging Face (see README)
+data/
+checkpoints/
+outputs/
+__pycache__/
+*.pyc
+.DS_Store
